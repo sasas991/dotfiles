@@ -1,6 +1,6 @@
 # My Dotfiles 🐚
 
-Scripts for quick installation of Zsh and Oh My Zsh.
+Scripts for quick installation of Zsh, Oh My Zsh and powerlevel10k theme
 
 ## How to use
 1. Clone repo:
@@ -11,6 +11,6 @@ Scripts for quick installation of Zsh and Oh My Zsh.
    `bash install.sh`
 
 ## Content
-* Installation: Zsh + Oh My Zsh
-* Plugins: zsh-autosuggestions, git
+* Installation: Zsh + Oh My Zsh + powerlevel10k theme
+* Plugins: zsh-autosuggestions, git, zsh-syntax-highlighting
 * Custom aliases
