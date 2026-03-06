@@ -112,8 +112,3 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-export PATH="$PATH:/mnt/01DC6215EB209A90/fluttersdk/flutter/bin"
-export ANDROID_SDK_ROOT="/mnt/01DC6215EB209A90/sdkstudio"
-export PATH="$PATH:$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin"
-export JAVA_HOME=/usr/lib/jvm/java-17-temurin-jdk/
-export PATH=$JAVA_HOME/bin:$PATH
