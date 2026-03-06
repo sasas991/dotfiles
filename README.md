@@ -1,6 +1,7 @@
 # My Dotfiles 🐚
 
-Scripts for quick installation of Zsh, Oh My Zsh and powerlevel10k theme
+Scripts for quick installation of Zsh, Oh My Zsh and powerlevel10k theme on Fedora Linux
+
 
 ## How to use
 1. Clone repo:
