@@ -15,5 +15,4 @@ Scripts for quick installation of Zsh, Oh My Zsh and powerlevel10k theme on Fedo
 ![screenshot preview](image.png)
 * Installation: Zsh + Oh My Zsh + powerlevel10k theme on Fedora Linux
 * Plugins: zsh-autosuggestions, git, zsh-syntax-highlighting
-* Custom aliases
-* 
+* Custom aliases 
