@@ -11,6 +11,6 @@ Scripts for quick installation of Zsh, Oh My Zsh and powerlevel10k theme
    `bash install.sh`
 
 ## Content
-* Installation: Zsh + Oh My Zsh + powerlevel10k theme
+* Installation: Zsh + Oh My Zsh + powerlevel10k theme on Fedora Linux
 * Plugins: zsh-autosuggestions, git, zsh-syntax-highlighting
 * Custom aliases
