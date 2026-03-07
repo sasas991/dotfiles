@@ -5,9 +5,30 @@ set -e
 echo "== Fedora Zsh Setup =="
 
 # 1. Установка зависимостей
-echo "Installing packages..."
-sudo dnf upgrade --refresh -y
-sudo dnf install -y zsh git curl util-linux-user fzf
+echo "Select your distribution:"
+
+PS3="Enter number: "
+
+select distro in "Fedora" "Ubuntu/Mint" "Quit"; do
+    case $distro in
+        Fedora)
+            PKG_UPDATE="sudo dnf upgrade --refresh -y"
+            PKG_INSTALL="sudo dnf install -y"
+            break
+            ;;
+        Ubuntu/Mint)
+            PKG_UPDATE="sudo apt update && sudo apt upgrade -y"
+            PKG_INSTALL="sudo apt install -y"
+            break
+            ;;
+        Quit)
+            exit 0
+            ;;
+        *)
+            echo "Invalid option"
+            ;;
+    esac
+done
 
 # 2. Установка Oh My Zsh
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
