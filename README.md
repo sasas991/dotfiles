@@ -1,5 +1,6 @@
 # My Dotfiles 🐚
 
+
 Scripts for quick installation of Zsh, Oh My Zsh and powerlevel10k theme on Fedora Linux
 
 
