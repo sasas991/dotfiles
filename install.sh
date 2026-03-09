@@ -13,12 +13,12 @@ select distro in "Fedora" "Ubuntu/Mint" "Quit"; do
     case $distro in
         Fedora)
             PKG_UPDATE="sudo dnf upgrade --refresh -y"
-            PKG_INSTALL="sudo dnf install -y"
+            PKG_INSTALL="sudo dnf install -y zsh git curl util-linux-user fzf"
             break
             ;;
         Ubuntu/Mint)
             PKG_UPDATE="sudo apt update && sudo apt upgrade -y"
-            PKG_INSTALL="sudo apt install -y"
+            PKG_INSTALL="sudo apt install -y zsh git curl util-linux-user fzf"
             break
             ;;
         Quit)
