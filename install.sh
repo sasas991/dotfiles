@@ -7,6 +7,7 @@ echo "== Fedora Zsh Setup =="
 # 1. Установка зависимостей
 echo "Select your distribution:"
 
+
 PS3="Enter number: "
 
 select distro in "Fedora" "Ubuntu/Mint" "Quit"; do
