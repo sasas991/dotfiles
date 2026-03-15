@@ -1,6 +1,6 @@
 # My Dotfiles 🐚
 
-Scripts for quick installation of Zsh, Oh My Zsh and powerlevel10k theme on Fedora Linux
+Scripts for quick installation of Zsh, Oh My Zsh and powerlevel10k theme on Fedora and Ubuntu/Debian.
 
 
 ## How to use
@@ -13,6 +13,5 @@ Scripts for quick installation of Zsh, Oh My Zsh and powerlevel10k theme on Fedo
 
 ## Content
 ![screenshot preview](image.png)
-* Installation: Zsh + Oh My Zsh + powerlevel10k theme on Fedora Linux
+* Installation: Zsh + Oh My Zsh + powerlevel10k theme on Fedora and Ubuntu/Debian distributions
 * Plugins: zsh-autosuggestions, git, zsh-syntax-highlighting
-* Custom aliases 
