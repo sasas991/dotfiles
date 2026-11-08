@@ -11,6 +11,7 @@ Scripts for quick installation of Zsh, Oh My Zsh and powerlevel10k theme on Fedo
 3. Launch script:
    `bash install.sh`
 
+
 ## Content
 ![screenshot preview](image.png)
 * Installation: Zsh + Oh My Zsh + powerlevel10k theme on Fedora and Ubuntu/Debian distributions
